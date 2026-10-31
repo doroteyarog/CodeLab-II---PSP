@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <string>
 #include <limits>
-
+#include <cctype>
 // Prompts user for a positive distance value with basic input validation
 double getDistanceTravelled() {
     double distance = 0.0;
